@@ -1,5 +1,5 @@
-require('set')
 require('plugins')
+require('set')
 require('nvimcmp')
 require('lsp')
 

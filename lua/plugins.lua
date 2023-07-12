@@ -40,6 +40,12 @@ return require('packer').startup(function(use)
     use 'neovim/nvim-lspconfig'
     use 'williamboman/mason.nvim'   -- LSP installer
 
+
+    use {
+      'nvim-telescope/telescope.nvim', tag = '0.1.2',
+    requires = { {'nvim-lua/plenary.nvim'} }
+    }
+
         
     if packer_bootstrap then
     require('packer').sync()

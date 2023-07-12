@@ -1,11 +1,10 @@
 # nvim
 
 Installation:
-    - install packer.nvim.
+
+    - git clone https://github.com/skyfant/nvim/ $HOME/.config/
     
     - init.lua: comment out all required('') files except of 'plugins'.
-    
-    - nvim: :PackerInstall.
     
     - init.lua: uncomment all commented required('') files.
 

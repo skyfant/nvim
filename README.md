@@ -8,3 +8,10 @@ Installation:
     
     - init.lua: uncomment all commented required('') files.
 
+
+
+Uninstall:
+
+    - rm -rf ~/.config/nvim
+
+    - rm -rf ~/.local/share/nvim

@@ -1,4 +1,4 @@
-//packer.nvim bootstrap
+-- packer.nvim bootstrap
 local ensure_packer = function()
   local fn = vim.fn
   local install_path = fn.stdpath('data')..'/site/pack/packer/start/packer.nvim'

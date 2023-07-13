@@ -24,35 +24,7 @@ vim.keymap.set('n', '<leader>fb', builtin.buffers, {})
 vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
 
 
--- Nvim-Tree
 
--- disable netrw at the very start of your init.lua
-vim.g.loaded_netrw = 1
-vim.g.loaded_netrwPlugin = 1
-
--- set termguicolors to enable highlight groups
-vim.opt.termguicolors = true
-
--- empty setup using defaults
-require("nvim-tree").setup()
-
--- OR setup with some options
-require("nvim-tree").setup({
-  sort_by = "case_sensitive",
-  view = {
-    width = 30,
-  },
-  renderer = {
-    group_empty = true,
-  },
-  filters = {
-    dotfiles = false,
-  },
-})
-
-vim.keymap.set('n', '<leader>to', ':NvimTreeOpen<cr>')
-vim.keymap.set('n', '<leader>tf', ':NvimTreeFocus<cr>')
-vim.keymap.set('n', '<leader>tc', ':NvimTreeClose<cr')
 
 -- keymaps
 
@@ -60,6 +32,7 @@ vim.keymap.set('n', '<leader>tc', ':NvimTreeClose<cr')
 vim.keymap.set('n', '<Esc>', ':let @/=""<Esc>')
 
 
--- keybinds for in-build terminal emulator
-vim.keymap.set('n', '<leader>t', ':vsplit term://bash<cr>')     -- ctl + d  to exit terminal mode
+-- keybinds for in-build terminal emulator        -- ctl + d  to exit terminal mode
+vim.keymap.set('n', '<leader>t', ':vsplit term://bash<cr>')    -- vertical split
+vim.keymap.set('n', '<leader>th', ':split term://bash<cr>')    -- horizontal split
 

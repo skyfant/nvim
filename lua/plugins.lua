@@ -48,12 +48,6 @@ return require('packer').startup(function(use)
     
     use 'jiangmiao/auto-pairs'
 
-    use {
-      'nvim-tree/nvim-tree.lua',
-      requires = {
-        'nvim-tree/nvim-web-devicons',},
-    }
-
         
     if packer_bootstrap then
     require('packer').sync()

@@ -46,8 +46,13 @@ return require('packer').startup(function(use)
     requires = { {'nvim-lua/plenary.nvim'} }
     }        
     
-    
     use 'jiangmiao/auto-pairs'
+
+    use {
+      'nvim-tree/nvim-tree.lua',
+      requires = {
+        'nvim-tree/nvim-web-devicons', -- optiona,},
+    }
 
         
     if packer_bootstrap then

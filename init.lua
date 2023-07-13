@@ -59,3 +59,7 @@ vim.keymap.set('n', '<leader>tc', ':NvimTreeClose<cr')
 -- clear seach buffer with <Esc> for stopping highlighting search results
 vim.keymap.set('n', '<Esc>', ':let @/=""<Esc>')
 
+
+-- keybinds for in-build terminal emulator
+vim.keymap.set('n', '<leader>t', ':vsplit term://bash<cr>')     -- ctl + d  to exit terminal mode
+

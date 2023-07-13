@@ -45,4 +45,4 @@ vim.opt.cmdheight = 1
 vim.opt.mouse = "a"
 
 vim.opt.splitright=true
-vim.opot.splitbelow=true
+vim.opt.splitbelow=true

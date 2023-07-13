@@ -2,6 +2,8 @@
 
 Installation:
 
+    - sudo apt install ripgrep    ( required for telescope )
+
     - git clone https://github.com/skyfant/nvim/ $HOME/.config/nvim
 
     - nvim

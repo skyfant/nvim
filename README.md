@@ -2,7 +2,7 @@
 
 Installation:
 
-    - git clone https://github.com/skyfant/nvim/ $HOME/.config/
+    - git clone https://github.com/skyfant/nvim/ $HOME/.config/nvim
     
     - init.lua: comment out all required('') files except of 'plugins'.
     

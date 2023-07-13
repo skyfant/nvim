@@ -51,6 +51,8 @@ return require('packer').startup(function(use)
       config = function() require("nvim-autopairs").setup {} end
     }
 
+    use 'TornaxO7/auto-cosco.vim'
+
         
     if packer_bootstrap then
     require('packer').sync()

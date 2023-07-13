@@ -38,9 +38,11 @@ vim.opt.termguicolors = true
 
 vim.opt.scrolloff = 5
 vim.opt.signcolumn = "yes"
-vim.opt.colorcolumn = "80"
+vim.opt.colorcolumn = "120"
 
 vim.opt.cmdheight = 1
 
 vim.opt.mouse = "a"
 
+vim.opt.splitright=true
+vim.opot.splitbelow=true

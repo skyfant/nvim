@@ -37,3 +37,6 @@ vim.keymap.set('n', '<Esc>', ':let @/=""<Esc>')
 vim.keymap.set('n', '<leader>t', ':vsplit term://bash<cr>')    -- vertical split
 vim.keymap.set('n', '<leader>th', ':split term://bash<cr>')    -- horizontal split
 
+-- keybinds for switching buffers
+vim.keymap.set('n', '<leader>bn', ':bnext<CR>')
+vim.keymap.set('n', '<leader>bp', ':bprev<CR>')
